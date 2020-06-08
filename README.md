@@ -37,17 +37,3 @@ The above scenarios are automated on **Cypress**.
 # Git REPOSITORY:
 https://github.com/umair-hussain-10p/Hobsons--Coding-Test.git
 
-# LIMITATIONS:
-
-There is a limitation on the last point &#39;Assert that all events on the page occurs for current year i.e. 2020 &#39;. The problem with it is all the dates are in different formats like [Month. Days range, Year] OR [Month. Days Range] OR Year. We can get the dates by using following code;
-
-var TextInsideLi = Cypress.$(&#39;p&#39;).text();
-
-console.log(TextInsideLi) ;
-
-The above code will give us the text in the tag and then we can parse the date from it. But After parsing it is impossible to compare it with all the other dates.
-
-Another approach is we write regular expression for the dates but it would be impossible to get which date format is using in the particular scenario.
-
-Therefore, we have only assert the future function in the current list.
-
