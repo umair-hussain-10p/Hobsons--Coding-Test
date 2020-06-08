@@ -5,9 +5,9 @@ describe('Help students on home screen', function() {
         //Visit the Website
         cy.visit(constants.HobsonsWebsite)
         //Assert the logo or title
-        cy.get('#logo > a').should('have.attr', 'href', 'https://www.hobsons.com')
+        cy.get('#logo > a').should('have.attr', 'href', constants.HobsonsWebsite)
+        })
     })
-})
   
     it ('Actions on home screen', function(){
         // Assertion on 'We help Students'
