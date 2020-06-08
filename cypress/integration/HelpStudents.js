@@ -4,7 +4,8 @@ describe('Help students on home screen', function() {
         .then((constants) => {
         //Visit the Website
         cy.visit(constants.HobsonsWebsite)
-        cy.get('#logo > a')
+        //Assert the logo or title
+        cy.get('#logo > a').should('have.attr', 'href', 'https://www.hobsons.com')
     })
 })
   

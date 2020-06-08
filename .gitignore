@@ -1,5 +1,5 @@
 Cypress.code-workspace
 node_modules/
-mochawesome-report/mochawesome.html
+cypress/report/
 cypress/videos/
 cypress/reportmochawesome-report/
