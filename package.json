@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "This is a coding test from hobsons provided on 8th of June 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umair-hussain-10p/Hobsons--Coding-Test.git"
+  },
+  "author": "Umair Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umair-hussain-10p/Hobsons--Coding-Test/issues"
+  },
+  "homepage": "https://github.com/umair-hussain-10p/Hobsons--Coding-Test#readme",
+  "devDependencies": {
+    "cypress": "^4.7.0"
+  }
+}
